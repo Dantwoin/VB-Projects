@@ -93,7 +93,7 @@ Public Class Form1
         For x As Integer = 0 To width - 1
             For y As Integer = 0 To height - 1
 
-                'get pixel value find average for each pixil
+        'get pixel value find average for each pixel
                 avg = (CInt(bmp.GetPixel(x, y).R) + _
                        bmp.GetPixel(x, y).G + _
                        bmp.GetPixel(x, y).B) \ 3
